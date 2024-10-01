@@ -8,17 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://i.imgur.com/xaw57LK.jpeg" type="image/png">
 
-</head>
-
-<body background="https://i.imgur.com/t9OBRhL.jpeg">
-
-
-    
-   
     <style>
         body {
+            background-image: url('https://i.imgur.com/t9OBRhL.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
             overflow: hidden;
             position: relative;
+            height: 100vh; /* Set height to cover the viewport */
         }
 
         .confetti-container {
@@ -48,6 +45,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="confetti-container"></div>
 
@@ -59,7 +57,7 @@
             confetti.classList.add('confetti');
             confetti.style.left = Math.random() * 100 + 'vw';
             confetti.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-            confetti.style.animationDuration = Math.random() * 0 + 2 + 's';
+            confetti.style.animationDuration = Math.random() * 2 + 1 + 's';
             container.appendChild(confetti);
 
             setTimeout(() => {
@@ -68,124 +66,12 @@
         }
 
         setInterval(createConfetti, 100);
-</script>
-
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f0e68c; /* Light yellow background */
-            overflow: hidden;
-        }
-
-        .corner {
-            position: absolute;
-            font-family: 'Arial', sans-serif;
-            color: white;
-            text-align: center;
-            z-index: 1;
-        }
-
-        /* Corner 1: Stars revolving */
-        .corner1 {
-            top: 10px;
-            left: 10px;
-            animation: rotate 10s linear infinite;
-        }
-
-        @keyframes rotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-
-        /* Corner 2: Happy Birthday */
-        .corner2 {
-            top: 10px;
-            right: 10px;
-            font-size: 2em;
-            animation: fade 3s infinite;
-            color : #ff69B4;
-            font-family: 'Poppins', sans-serif;
-
-        }
-
-        @keyframes fade {
-            0%, 100% { opacity: 0; }
-            50% { opacity: 1; }
-        }
-
-        /* Corner 3: Balloons */
-        .corner3 {
-            bottom: 10px;
-            left: 10px;
-            font-size: 1.5em;
-            animation: float 2s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0); }
-        }
-
-        /* Corner 4: Confetti falling */
-        .corner4 {
-            bottom: 10px;
-            right: 10px;
-            animation: fall 4s infinite linear;
-        }
-
-        @keyframes fall {
-            0% { transform: translateY(-100%); }
-            100% { transform: translateY(100vh); }
-        }
-
-        /* Confetti styles */
-        .confetti {
-            display: inline-block;
-            width: 10px;
-            height: 10px;
-            background-color: #ff6347; /* Tomato color */
-            margin: 2px;
-            border-radius: 50%;
-            animation: fall 4s infinite;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="corner corner1">
-        <div class="star">⭐</div>
-        <div class="star">⭐</div>
-        <div class="star">⭐</div>
-    </div>
-
-    <div class="corner corner2">
-        <b>Happy Birthday <br>My Friend :)</b>
-    </div>
-
-    <div class="corner corner3">
-        🎈 🎈 <br>🎈 🎈
-    </div>
-
-    <div class="corner corner4">
-        <div class="confetti"></div>
-        <div class="confetti" style="background-color: #ffa500;"></div>
-        <div class="confetti" style="background-color: #00ff00;"></div>
-        <div class="confetti" style="background-color: #1e90ff;"></div>
-        <div class="confetti" style="background-color: #ff69b4;"></div>
-    </div>
-
-</body>
-</html>
-
+    </script>
 
     <div class="wish_mitisha">
         <h1>Wishing you a very <br>Happy Birthday <br>Mitisha!!!</h1>
     </div>
+
     <div class="container">
         <div class="birthdayCard">
             <div class="cardFront">
@@ -209,24 +95,9 @@
             </div>
             <div class="cardInside">
                 <div class="img">
-                     
                     <iframe src="https://drive.google.com/file/d/1Ax9TIh_zY1Rpk1rnhJIVompJZyOc5nps/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/1dHb0flrdojl-JFVYsqhQgXJANE07tdLw/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15jMcI7wUG7cBfROAM9agaxolycdUt9g8/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15Y8WJ5cvgLmN_6auJsa8ODLIm_Oll93u/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/158wX5habOeaay2_wCZ9C7NCfSO62A3RS/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15RXr6PBcuHN2L9MoZ2CUKAvt7RfXGhfQ/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15E_8aQj1uxOorDxT6FOUXnb9-pk9NQPt/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15BpOc3RY-3BT3yW2ZCPIyeeujnaMkZVM/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15ARLgJ2Mz9YMkwJXiCwXmKDt1_TxWGRP/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15YKoWsQLYiIh1t_ebW49-79tREitnKeS/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15kqcLQcl3EJFs7nc5J89ZLKNefFpXw08/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15ttd5LKzLWHTwUv9SuRpRWn__qQBTCpH/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-                    <iframe src="https://drive.google.com/file/d/15vON87a5VaNSi_mUDlXYH3IwSp8xM6dV/preview" width="600" height="400" allow="autoplay" style="display: none;"></iframe>
-
+                    <!-- Additional iframes... -->
                 </div>
-               
-                
                 <div class="controls">
                     <button id="prevBtn">&lt;</button>
                     <button id="nextBtn">&gt;</button>
@@ -234,8 +105,6 @@
             </div>
         </div>
     </div>
-
-   
 
     <script>
         const iframes = document.querySelectorAll('iframe');
