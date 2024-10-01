@@ -1,5 +1,6 @@
 body {
     height: 96vh;
+    background : url('');
     background-repeat: no-repeat;
     background-size: cover;
 }
